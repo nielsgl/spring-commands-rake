@@ -2,9 +2,14 @@ require "spring/commands/rake/version"
 
 module Spring
 	module Commands
-		module Rake
+		class Rake
+
+			class << self
+				attr_accessor :environment_matchers
+			end
+
 			# Your code goes here...
-			def hello_world
+			def self.hello_world
 				puts "hi!"
 			end
 		end
