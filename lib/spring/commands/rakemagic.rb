@@ -1,5 +1,3 @@
-require "spring/commands/rakemagic/version"
-
 module Spring
 	module Commands
 		class Rakemagic
@@ -23,9 +21,23 @@ module Spring
 				end
 
 				nil
+
 			end
 
+			# def env(*)
+			# 	"test"
+			# end
+
+			# def exec_name
+			# 	"rakemagic"
+			# end
+
+			# def gem_name
+			# 	"rspec-core"
+			# end
+
 		end
-		Spring.register_command "rake_magic", Rakemagic.new
+
+		Spring.register_command "rakemagic", Rakemagic.new
 	end
 end
