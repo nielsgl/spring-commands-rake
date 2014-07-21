@@ -5,7 +5,7 @@ require 'spring/commands/rakemagic/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "spring-commands-rakemagic"
-  spec.version       = Spring::Commands::Rakemagic::VERSION
+  spec.version       = '0.0.6' #Spring::Commands::Rakemagic::VERSION
   spec.authors       = ["Niels van Galen Last"]
   spec.email         = ["nvangalenlast@gmail.com"]
   spec.summary       = %q{rake command for spring}
