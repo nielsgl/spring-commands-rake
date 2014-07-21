@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'spring/commands/rake/version'
+require 'spring/commands/rakemagic/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "spring-commands-rake"
-  spec.version       = Spring::Commands::Rake::VERSION
+  spec.name          = "spring-commands-rakemagic"
+  spec.version       = Spring::Commands::Rakemagic::VERSION
   spec.authors       = ["Niels van Galen Last"]
   spec.email         = ["nvangalenlast@gmail.com"]
   spec.summary       = %q{rake command for spring}
@@ -20,5 +20,4 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
-  spec.add_dependency "rspec"
 end
